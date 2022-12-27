@@ -1,0 +1,1 @@
+pipenv install grpcio-tools && pipenv run python -m grpc_tools.protoc -I protobufs --python_out=./apps/api-gateway --grpc_python_out=./apps/api-gateway protobufs/auth.proto

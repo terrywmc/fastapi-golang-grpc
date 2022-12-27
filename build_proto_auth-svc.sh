@@ -1,0 +1,1 @@
+protoc --go_out=./apps/auth-svc --go-grpc_out=./apps/auth-svc protobufs/auth.proto

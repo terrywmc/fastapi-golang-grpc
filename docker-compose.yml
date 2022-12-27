@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  api-gateway:
+    build: ./apps/api-gateway
+    ports:
+      - 8000:8000
+  auth-svc:
+    build: ./apps/auth-svc
+    expose:
+      - 8080:8080
